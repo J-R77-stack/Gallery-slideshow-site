@@ -3,6 +3,34 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
-h1 {
+/* Navbar */
+
+#nav1 {
     font-family: 'Libre Baskerville', serif;
+    font-size: 56px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #000000;
+}
+
+#nav2 {
+    font-family: 'Libre Baskerville', serif;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #7d7d7d;
+}
+
+/* Media Queries for Navbar */
+
+@media only screen and (max-width: 550px) {
+    #nav1 {
+        font-size: 34px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #nav2 {
+        margin-right: 20px;
+    }
 }
