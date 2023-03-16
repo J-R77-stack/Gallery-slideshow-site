@@ -23,3 +23,26 @@ body {
     margin: 10px;
     margin-bottom: 30px;
 }
+
+.hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.card-text {
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
