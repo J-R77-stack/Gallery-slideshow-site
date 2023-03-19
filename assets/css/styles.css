@@ -16,6 +16,7 @@ body {
     font-family: 'Libre Baskerville', serif;
     text-decoration: none;
     color: #7d7d7d;
+    letter-spacing: 2.5px;
 }
 
 /* Gallery */
@@ -46,4 +47,53 @@ body {
     position: absolute;
     bottom: 30px;
     left: 20px;
+}
+
+/* slideshow */
+
+.slideImage {
+    height: 700px;
+    position: absolute;
+    left: 25px;
+}
+
+#Slidetitle {
+    position: absolute;
+    z-index: 2;
+    background-color: #FFFFFF;
+    height: 250px;
+    left: 550px;
+    width: 250px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#Slidetitle>h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+#Slidetitle>p {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7d7d7d;
+    margin-top: 20px;
+}
+
+#artist-image1 {
+    position: absolute;
+    left: 650px;
+    top: 800px;
+}
+
+#display {
+    font-size: 200px;
+    line-height: 150px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #f3f3f3;
 }
