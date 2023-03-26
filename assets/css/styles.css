@@ -49,73 +49,7 @@ body {
     left: 20px;
 }
 
-/* slideshow */
 
-.slideImage {
-    height: 700px;
-    position: absolute;
-    left: 100px;
-}
-
-#Slidetitle {
-    position: absolute;
-    z-index: 2;
-    background-color: #FFFFFF;
-    height: 250px;
-    left: 620px;
-    width: 250px;
-    padding-left: 50px;
-}
-
-#Slidetitle>h1 {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 64px;
-}
-
-#Slidetitle>p {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 15px;
-    color: #7d7d7d;
-    margin-top: 20px;
-}
-
-#artist-image1 {
-    position: absolute;
-    left: 720px;
-    top: 800px;
-}
-
-#display {
-    font-size: 200px;
-    line-height: 150px;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-    color: #f3f3f3;
-    position: absolute;
-    right: 150px;
-}
-
-#description {
-    position: absolute;
-    right: 220px;
-    top: 300px;
-    z-index: 2;
-    width: 400px;
-    height: 600px;
-    font: bold;
-    font-family: 'Libre Baskerville', serif;
-    color: #7d7d7d;
-    font-size: 18px;
-    line-height: 28px;
-}
-
-#link1 {
-    color: #7d7d7d;
-}
 
 /* slideshow */
 
@@ -127,9 +61,44 @@ body {
 }
 
 .box2 {
-    background-color: green;
-    height: 700px;
+    background-color: #FFFFFF;
+    height: 800px;
     margin-right: 10px;
+    position: relative;
+}
+
+.box2 #display {
+    font-size: 200px;
+    line-height: 150px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #f3f3f3;
+    position: absolute;
+    right: 150px;
+    top: 10px;
+}
+
+.box2 #description p {
+    position: absolute;
+    right: 200px;
+    top: 130px;
+    width: 450px;
+    height: 600px;
+    font: bold;
+    font-family: 'Libre Baskerville', serif;
+    color: #7d7d7d;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+#link1 {
+    color: #7d7d7d;
+    position: absolute;
+    right: 500px;
+    bottom: 100px;
+    font: bold;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 div.box3 {
@@ -227,9 +196,9 @@ div #forwardbutton {
 @media only screen and (max-width: 900px) {
     div .box5 {
         position: absolute;
-        right: 160px;
+        right: 140px;
         height: 300px;
-        width: 300px;
+        width: 320px;
         background-color: #FFFFFF;
     }
 }
@@ -290,5 +259,48 @@ div #forwardbutton {
         line-height: 15px;
         color: #7d7d7d;
         margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    div .box4 {
+        position: absolute;
+        left: 10px;
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div.box3 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box2 #display {
+        font-size: 120px;
+        line-height: 75px;
+        left: 90px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box2 #description p {
+        left: 10px;
+        width: 300px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #link1 {
+        left: 10px;
+        bottom: 150px;
+        font-size: 9px;
+        width: 100px;
     }
 }
