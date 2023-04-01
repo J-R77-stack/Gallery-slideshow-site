@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/javascript/script.js" defer></script>
     <title>Gallery Slide Show</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,84 +18,267 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a id="nav1" class="navbar-brand" href="index.html">galleria.</a>
-                <span class="navbar-text">
-                    <a id="nav2" href="slideshow.html">START SLIDESHOW</a>
-                </span>
-            </div>
-        </nav>
-        <div class="hr">
-            <hr>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <div class="box1">
-                    <div id="starry">
-                        <img src="assets/images/starry-night/hero-large.jpg" alt="">
+    <section aria-label="Slideshow Pictures">
+        <div class="carousel" data-carousel>
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <div class="container-fluid">
+                        <!-- Nav Bar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <a id="nav1" class="navbar-brand" href="index.html">galleria.</a>
+                                <span class="navbar-text">
+                                    <a id="nav2" href="#">START SLIDESHOW</a>
+                                </span>
+                            </div>
+                        </nav>
+                        <div class="hr">
+                            <hr>
+                        </div>
                     </div>
-                    <div class="box3">
-                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/starry-night/hero-large.jpg" alt="starry night image">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/starry-night/artist.jpg" alt=" Vincent Van Gogh">
+                                    </div>
+                                    <div class="box5">
+                                        <h1>Starry</h1>
+                                        <h1>Night</h1>
+                                        <p>Vincent Van Gogh</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1889</div>
+                                    <div id="description">
+                                        <p class="mb-5">Although The Starry Night was painted during the day in Van
+                                            Gogh's
+                                            ground-floor
+                                            studio, it would
+                                            be inaccurate to state that the picture was painted from memory. The view
+                                            has
+                                            been
+                                            identified as
+                                            the one from his bedroom window, facing east, a view which Van Gogh painted
+                                            variations of no
+                                            fewer than twenty-one times, including The Starry Night. "Through the
+                                            iron-barred
+                                            window,"
+                                            he
+                                            wrote to his brother, Theo, around 23 May 1889, "I can see an enclosed
+                                            square of
+                                            wheat ...
+                                            above
+                                            which, in the morning, I watch the sun rise in all its glory."</p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Starry_Night" target="_blank"
+                                            id="link1">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box4">
-                        <img src="assets/images/starry-night/artist.jpg" alt="">
-                    </div>
-                    <div class="box5">
-                        <h1>Starry</h1>
-                        <h1>Night</h1>
-                        <p>Vincent Van Gogh</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12  col-lg-6">
-                <div class="box2">
-                    <div id="display">1889</div>
-                    <div id="description">
-                        <p class="mb-5">Although The Starry Night was painted during the day in Van Gogh's ground-floor
-                            studio, it would
-                            be inaccurate to state that the picture was painted from memory. The view has been
-                            identified as
-                            the one from his bedroom window, facing east, a view which Van Gogh painted variations of no
-                            fewer than twenty-one times, including The Starry Night. "Through the iron-barred window,"
-                            he
-                            wrote to his brother, Theo, around 23 May 1889, "I can see an enclosed square of wheat ...
-                            above
-                            which, in the morning, I watch the sun rise in all its glory."</p>
-                        <a href="#" id="link1">GO TO SOURCE</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="hr2">
-            <hr>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <div class="box6">
-                    <h2 id="footer-title">Starry Night</h2>
-                    <p id="footer-para">Vincent Van Gogh</p>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="box7">
-                    <div id="backbutton">
-                        <img src="assets/images/shared/icon-back-button.svg" alt="">
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Starry Night</h2>
+                                    <p id="footer-para">Vincent Van Gogh</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="box7">
+                                    <button id="backbutton" data-carousel-button="prev">
+                                        <img src="assets/images/shared/icon-back-button.svg" alt="">
+                                    </button>
+                                    <button id="forwardbutton" data-carousel-button="next">
+                                        <img src="assets/images/shared/icon-next-button.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="forwardbutton">
-                        <img src="assets/images/shared/icon-next-button.svg" alt="">
+                </li>
+                <li class="slide">
+                    <div class="container-fluid">
+                        <!-- Nav Bar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <a id="nav1" class="navbar-brand" href="index.html">galleria.</a>
+                                <span class="navbar-text">
+                                    <a id="nav2" href="slideshow.html">START SLIDESHOW</a>
+                                </span>
+                            </div>
+                        </nav>
+                        <div class="hr">
+                            <hr>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/girl-with-pearl-earring/hero-large.jpg"
+                                            alt=" Girl with a Pearl Earring">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/girl-with-pearl-earring/artist.jpg"
+                                            alt="Johannes Vermeer">
+                                    </div>
+                                    <div class="box5-pearl">
+                                        <h1> Girl with</h1>
+                                        <h1>a Pearl</h1>
+                                        <h1>Earring</h1>
+                                        <p>Johannes Vermeer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1665</div>
+                                    <div id="description">
+                                        <p class="mb-5">The painting is a tronie, the Dutch 17th-century description of
+                                            a 'head' that was not meant to be a portrait. It depicts a European girl
+                                            wearing an exotic dress, an oriental turban, and what was thought to be a
+                                            very large pearl as an earring. In 2014, Dutch astrophysicist Vincent Icke
+                                            raised doubts about the material of the earring and argued that it looks
+                                            more like polished tin than pearl on the grounds of the specular reflection,
+                                            the pear shape and the large size of the earring. </p>
+                                        <a href="https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+                                            target="_blank" id="link1">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Girl with a Pearl Earring</h2>
+                                    <p id="footer-para">Johannes Vermeer</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="box7">
+                                    <button id="backbutton" data-carousel-button="prev">
+                                        <img src="assets/images/shared/icon-back-button.svg" alt="">
+                                    </button>
+                                    <button id="forwardbutton" data-carousel-button="next">
+                                        <img src="assets/images/shared/icon-next-button.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="container-fluid">
+                        <!-- Nav Bar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <a id="nav1" class="navbar-brand" href="index.html">galleria.</a>
+                                <span class="navbar-text">
+                                    <a id="nav2" href="slideshow.html">START SLIDESHOW</a>
+                                </span>
+                            </div>
+                        </nav>
+                        <div class="hr">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/guernica/hero-large.jpg" alt=" guernica image">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/guernica/artist.jpg" alt="Pablo Picasso image">
+                                    </div>
+                                    <div class="box5-guernica">
+                                        <h1>Guernica</h1>
+                                        <p>Pablo Picasso</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1937</div>
+                                    <div id="description">
+                                        <p class="mb-5">The scene occurs within a room where, on the left, a wide-eyed
+                                            bull stands over a grieving woman holding a dead child in her arms. In the
+                                            center of the room a horse falls in agony with a large gaping hole in its
+                                            side, as if it had just been run through by a spear or javelin. The horse
+                                            appears to be wearing chain mail armor, decorated with vertical tally marks
+                                            arranged in rows. A dead and dismembered soldier lies under the horse. The
+                                            hand of his severed right arm grasps a shattered sword, from which a flower
+                                            grows.</p>
+                                        <a href="https://en.wikipedia.org/wiki/Guernica_(Picasso)" target="_blank"
+                                            id="link1">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Guernica</h2>
+                                    <p id="footer-para">Pablo Picasso</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="box7">
+                                    <button id="backbutton" data-carousel-button="prev">
+                                        <img src="assets/images/shared/icon-back-button.svg" alt="">
+                                    </button>
+                                    <button id="forwardbutton" data-carousel-button="next">
+                                        <img src="assets/images/shared/icon-next-button.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
