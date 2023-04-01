@@ -279,6 +279,62 @@ div .box5-guernica {
     margin-left: 80px;
 }
 
+/* aditional styling for Penitent Magdalene  */
+
+div .box5-penitent {
+    position: absolute;
+    right: 160px;
+    height: 200px;
+    width: 350px;
+    background-color: #FFFFFF;
+}
+
+.box5-penitent h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    margin-left: 80px;
+}
+
+.box5-penitent p {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: #7d7d7d;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+/* aditional styling for The storm on the sea of galilee */
+
+div .box5-galilee {
+    position: absolute;
+    right: 50px;
+    height: 250px;
+    width: 400px;
+    background-color: #FFFFFF;
+}
+
+.box5-galilee h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    margin-left: 80px;
+}
+
+.box5-galilee p {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: #7d7d7d;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
 /* Media Query for sladeshow */
 
 @media only screen and (max-width: 900px) {
