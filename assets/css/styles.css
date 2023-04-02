@@ -126,6 +126,46 @@ body {
 
 }
 
+#link2 {
+    color: #7d7d7d;
+    position: absolute;
+    right: 500px;
+    bottom: 100px;
+    font: bold;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+#link3 {
+    color: #7d7d7d;
+    position: absolute;
+    right: 500px;
+    bottom: 100px;
+    font: bold;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+#link4 {
+    color: #7d7d7d;
+    position: absolute;
+    right: 500px;
+    bottom: 100px;
+    font: bold;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+#link5 {
+    color: #7d7d7d;
+    position: absolute;
+    right: 500px;
+    bottom: 100px;
+    font: bold;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
 div.box3 {
     background-color: #000000;
     color: #FFFFFF;
