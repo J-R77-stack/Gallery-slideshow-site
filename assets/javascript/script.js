@@ -1,23 +1,3 @@
-const buttons = document.querySelectorAll("[data-carousel-button]")
-
-buttons.forEach(button => {
-    button.addEventListener("click", () => {
-        const offset = button.dataset.carouselButton === "next" ? 1 : -1
-        const slides = button
-            .closest("[data-carousel]")
-            .querySelector("[data-slides]")
-
-        const activeSlide = slides.querySelector("[data-active]")
-        let newIndex = [...slides.children].indexOf(activeSlide) + offset
-        if (newIndex < 0) newIndex = slides.children.length - 1
-        if (newIndex >= slides.children.length) newIndex = 0
-
-        slides.children[newIndex].dataset.active = true
-        delete activeSlide.dataset.active
-    })
-})
-
-
 // slideshow stop and start
 
 var slides = document.querySelectorAll('#slides .slide');
@@ -42,7 +22,7 @@ function pauseSlideshow() {
 function playSlideshow() {
     pauseButton.innerHTML = 'STOP SLIDESHOW';
     playing = true;
-    slideInterval = setInterval(nextSlide, 2000);
+    slideInterval = setInterval(nextSlide, 5000);
 }
 
 pauseButton.onclick = function () {
@@ -52,3 +32,25 @@ pauseButton.onclick = function () {
         playSlideshow();
     }
 };
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
+}

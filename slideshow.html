@@ -43,8 +43,10 @@
                                 <img src="assets/images/starry-night/hero-large.jpg" alt="starry night image">
                             </div>
                             <div class="box3">
-                                <i class="fas fa-expand-arrows-alt"></i> VIEW
-                                IMAGE
+                                <i class="fas fa-expand-arrows-alt"></i> <button type="button" class="imageButton"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    VIEW IMAGE
+                                </button>
                             </div>
                             <div class="box4">
                                 <img src="assets/images/starry-night/artist.jpg" alt=" Vincent Van Gogh">
@@ -99,9 +101,25 @@
                             <p id="footer-para">Vincent Van Gogh</p>
                         </div>
                     </div>
+                    <div class="col-6">
+
+                    </div>
                 </div>
             </div>
         </li>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1>Starry Night</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="assets/images/starry-night/hero-large.jpg" alt="" style="height: 800px;">
+
+                </div>
+            </div>
+        </div>
         <li class="slide">
             <div class="container-fluid">
                 <div class="row">
