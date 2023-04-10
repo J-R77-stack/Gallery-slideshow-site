@@ -18,11 +18,11 @@ buttons.forEach(button => {
 })
 
 
-// slideshow pause and start
+// slideshow stop and start
 
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
-var slideInterval = setInterval(nextSlide, 3000);
+var slideInterval = setInterval(nextSlide, 5000);
 
 function nextSlide() {
     slides[currentSlide].className = 'slide';
@@ -34,13 +34,13 @@ var playing = true;
 var pauseButton = document.getElementById('pause');
 
 function pauseSlideshow() {
-    pauseButton.innerHTML = 'Play';
+    pauseButton.innerHTML = 'START SLIDESHOW';
     playing = false;
     clearInterval(slideInterval);
 }
 
 function playSlideshow() {
-    pauseButton.innerHTML = 'Pause';
+    pauseButton.innerHTML = 'STOP SLIDESHOW';
     playing = true;
     slideInterval = setInterval(nextSlide, 2000);
 }
