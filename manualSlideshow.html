@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/javascript/script.js" defer></script>
+    <title>Gallery Slide Show</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a id="nav1" class="navbar-brand" href="index.html">galleria.</a>
+                <span class="navbar-text">
+                    <a class="nav2" class="controls" id="pause">GO TO SLIDESHOW</a>
+                </span>
+            </div>
+        </nav>
+        <div class="hr">
+            <hr>
+        </div>
+    </div>
+    <!-- Manual Slideshow -->
+    <section aria-label="Newest Photos">
+        <div class="carousel" data-carousel>
+            <div class="box7">
+                <button id="backbutton" data-carousel-button="prev">
+                    <img src="assets/images/shared/icon-back-button.svg" alt="">
+                </button>
+                <button id="forwardbutton" data-carousel-button="next">
+                    <img src="assets/images/shared/icon-next-button.svg" alt="">
+                </button>
+            </div>
+            <ul data-slides>
+                <li class="slider" data-active>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/starry-night/hero-large.jpg" alt="starry night image">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> <button type="button"
+                                            class="imageButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            VIEW IMAGE
+                                        </button>
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/starry-night/artist.jpg" alt=" Vincent Van Gogh">
+                                    </div>
+                                    <div class="box5">
+                                        <h1>Starry</h1>
+                                        <h1>Night</h1>
+                                        <p>Vincent Van Gogh</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1889</div>
+                                    <div id="description">
+                                        <p class="mb-5">Although The Starry Night was painted during the day in Van
+                                            Gogh's
+                                            ground-floor
+                                            studio, it would
+                                            be inaccurate to state that the picture was painted from memory. The view
+                                            has
+                                            been
+                                            identified as
+                                            the one from his bedroom window, facing east, a view which Van Gogh painted
+                                            variations of no
+                                            fewer than twenty-one times, including The Starry Night. "Through the
+                                            iron-barred
+                                            window,"
+                                            he
+                                            wrote to his brother, Theo, around 23 May 1889, "I can see an enclosed
+                                            square of
+                                            wheat ...
+                                            above
+                                            which, in the morning, I watch the sun rise in all its glory."</p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Starry_Night" target="_blank"
+                                            id="link1">
+                                            GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Starry Night</h2>
+                                    <p id="footer-para">Vincent Van Gogh</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1>Starry Night</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <img src="assets/images/starry-night/hero-large.jpg" alt="" style="height: 800px;">
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/girl-with-pearl-earring/hero-large.jpg"
+                                            alt=" Girl with a Pearl Earring">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/girl-with-pearl-earring/artist.jpg"
+                                            alt="Johannes Vermeer">
+                                    </div>
+                                    <div class="box5-pearl">
+                                        <h1> Girl with</h1>
+                                        <h1>a Pearl</h1>
+                                        <h1>Earring</h1>
+                                        <p>Johannes Vermeer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1665</div>
+                                    <div id="description">
+                                        <p class="mb-5">The painting is a tronie, the Dutch 17th-century description of
+                                            a 'head' that was not meant to be a portrait. It depicts a European girl
+                                            wearing an exotic dress, an oriental turban, and what was thought to be a
+                                            very large pearl as an earring. In 2014, Dutch astrophysicist Vincent Icke
+                                            raised doubts about the material of the earring and argued that it looks
+                                            more like polished tin than pearl on the grounds of the specular reflection,
+                                            the pear shape and the large size of the earring. </p>
+                                        <a href="https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+                                            target="_blank" id="link2">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">The Girl with a Pearl Earring</h2>
+                                    <p id="footer-para">Johannes Vermeer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/guernica/hero-large.jpg" alt=" guernica image">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/guernica/artist.jpg" alt="Pablo Picasso image">
+                                    </div>
+                                    <div class="box5-guernica">
+                                        <h1>Guernica</h1>
+                                        <p>Pablo Picasso</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1937</div>
+                                    <div id="description">
+                                        <p class="mb-5">The scene occurs within a room where, on the left, a wide-eyed
+                                            bull stands over a grieving woman holding a dead child in her arms. In the
+                                            center of the room a horse falls in agony with a large gaping hole in its
+                                            side, as if it had just been run through by a spear or javelin. The horse
+                                            appears to be wearing chain mail armor, decorated with vertical tally marks
+                                            arranged in rows. A dead and dismembered soldier lies under the horse. The
+                                            hand of his severed right arm grasps a shattered sword, from which a flower
+                                            grows.</p>
+                                        <a href="https://en.wikipedia.org/wiki/Guernica_(Picasso)" target="_blank"
+                                            id="link3">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Guernica</h2>
+                                    <p id="footer-para">Pablo Picasso</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/penitent-magdalene/hero-large.jpg" alt=" penitent magdalene image">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/penitent-magdalene/artist.jpg" alt="Artemisia Gentileschi image">
+                                    </div>
+                                    <div class="box5-penitent">
+                                        <h1>Penitent Magdalene</h1>
+                                        <p>Artemisia Gentileschi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1625</div>
+                                    <div id="description">
+                                        <p class="mb-5"> Penitent Magdalene is a painting by the Italian artist
+                                            Artemisia Gentileschi. It hangs in Seville Cathedral. It has probably been
+                                            in the cathedral since the late 17th century. The painting's first home was
+                                            the collection of Fernando Enriquez Afan de Ribera, from 1626 to 1637. She
+                                            returned to the subject later in the 1620s in Mary Magdalene as Melancholy.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/Penitent_Magdalene_(Artemisia_Gentileschi)"
+                                            target="_blank" id="link4">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Penitent Magdalene</h2>
+                                    <p id="footer-para">Artemisia Gentileschi </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/the-storm-on-the-sea-of-galilee/hero-large.jpg"
+                                            alt=" The Storm on the Sea of Galilee image">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/the-storm-on-the-sea-of-galilee/artist.jpg" alt="Rembrandt image">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>The Storm on the Sea of Galilee</h1>
+                                        <p>Rembrandt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1633</div>
+                                    <div id="description">
+                                        <p class="mb-5">The painting, in vertical format, shows a close-up view of
+                                            Christ's disciples struggling frantically against the heavy storm to regain
+                                            control of their fishing boat. A huge wave beats the bow and rips the sail.
+                                            One of the disciples is seen vomiting over the side. Another one, looking
+                                            directly out at the viewer, is a self-portrait of the artist. Only Christ,
+                                            depicted on the right, remains calm.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Storm_on_the_Sea_of_Galilee" target="_blank"
+                                            id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">The Storm on the Sea of Galilee</h2>
+                                    <p id="footer-para">Rembrandt</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/the-great-wave-off-kanagawa/hero-large.jpg"
+                                            alt=" The Great Wave off Kanagawa">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/the-great-wave-off-kanagawa/artist.jpg" alt="Hokusai image">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>The Great Wave off Kanagawa</h1>
+                                        <p>Hokusai</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1831</div>
+                                    <div id="description">
+                                        <p class="mb-5">The Great Wave off Kanagawa (Japanese: 神奈川沖浪裏, Hepburn:
+                                            Kanagawa-oki Nami Ura, lit. "Under the Wave off Kanagawa"), also known as
+                                            The Great Wave or simply The Wave, is a woodblock print by the Japanese
+                                            ukiyo-e artist Hokusai. It was published sometime between 1829 and 1833 in
+                                            the late Edo period as the first print in Hokusai's series Thirty-six Views
+                                            of Mount Fuji. The image depicts an enormous wave threatening three boats
+                                            off the coast in the Sagami Bay (Kanagawa Prefecture) while Mount Fuji rises
+                                            in the background.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa" target="_blank"
+                                            id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">The Great Wave of Kanagawa</h2>
+                                    <p id="footer-para">Hokusai</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/van-gogh-self-portrait/hero-large.jpg"
+                                            alt=" Van Gogh Self-portrait">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/van-gogh-self-portrait/artist.jpg" alt="Vincent Van Gogh">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>Van Gogh Self-portrait</h1>
+                                        <p>Vincent Van Gogh </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1889</div>
+                                    <div id="description">
+                                        <p class="mb-5">This self-portrait was one of about 32 produced over a 10-year
+                                            period, and these were an important part of his work as a painter; he
+                                            painted himself because he often lacked the money to pay for models. He took
+                                            the painting with him to Auvers-sur-Oise, near Paris, where he showed it to
+                                            Dr. Paul Gachet, who thought it was "absolutely fanatical". Art historians
+                                            are divided as to whether this painting or Self-portrait without beard is
+                                            Van Gogh's final self-portrait. The art historians Ingo F. Walther and Jan
+                                            Hulsker consider this to be the last.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/Van_Gogh_self-portrait_(1889)" target="_blank"
+                                            id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Van Gogh Self-portrait</h2>
+                                    <p id="footer-para">Vincent Van Gogh </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/the-sleeping-gypsy/hero-large.jpg"
+                                            alt="  The Sleeping Gypsy Henri Rousseau">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/the-sleeping-gypsy/artist.jpg" alt="Henri Rousseau ">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>The Sleeping Gypsy</h1>
+                                        <p>Henri Rousseau</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1897</div>
+                                    <div id="description">
+                                        <p class="mb-5">The Sleeping Gypsy (French: La Bohémienne endormie) is an 1897
+                                            oil painting by French Naïve artist Henri Rousseau (1844–1910). It is a
+                                            fantastical depiction of a lion musing over a sleeping woman on a moonlit
+                                            night. Rousseau first exhibited the painting at the 13th Salon des
+                                            Indépendants, and tried unsuccessfully to sell it to the mayor of his
+                                            hometown, Laval. Instead, it entered the private collection of a Parisian
+                                            charcoal merchant where it remained until 1924, when it was discovered by
+                                            the art critic Louis Vauxcelles."
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Sleeping_Gypsy" target="_blank" id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">The Sleeping Gypsy </h2>
+                                    <p id="footer-para">Henri Rousseau</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/lady-with-an-ermine/hero-large.jpg"
+                                            alt="Lady with an Ermine Leonardo da Vinci ">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/lady-with-an-ermine/artist.jpg" alt="Leonardo da Vinci ">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>Lady with an Ermine</h1>
+                                        <p>Leonardo da Vinci</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1489</div>
+                                    <div id="description">
+                                        <p class="mb-5">The Lady with an Ermine (Italian: Dama con l'ermellino [ˈdaːma
+                                            kon lermelˈliːno]; Polish: Dama z gronostajem) is a portrait painting widely
+                                            attributed to the Italian Renaissance artist Leonardo da Vinci. Dated to
+                                            c. 1489–1491, the work is painted in oils on a panel of walnut wood. Its
+                                            subject is Cecilia Gallerani, a mistress of Ludovico Sforza ("Il Moro"),
+                                            Duke of Milan; Leonardo was painter to the Sforza court at the time of its
+                                            execution. It is one of only four surviving portraits of women painted by
+                                            Leonardo, the others being Ginevra de' Benci, La Belle Ferronnière and the
+                                            Mona Lisa.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/Lady_with_an_Ermine" target="_blank" id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Lady with an Ermine</h2>
+                                    <p id="footer-para">Leonardo da Vinci</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/the-night-cafe/hero-large.jpg"
+                                            alt="The Night Café Vincent Van Gogh">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/the-night-cafe/artist.jpg" alt="Vincent Van Gogh">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>The Night Café</h1>
+                                        <p>Vincent Van Gogh</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1888</div>
+                                    <div id="description">
+                                        <p class="mb-5">The Night Café (French: Le Café de nuit) is an oil painting
+                                            created by Dutch artist Vincent van Gogh in September 1888 in Arles. Its
+                                            title is inscribed lower right beneath the signature. The painting is owned
+                                            by Yale University and is currently held at the Yale University Art Gallery
+                                            in New Haven, Connecticut. The interior depicted is the Café de la Gare, 30
+                                            Place Lamartine, run by Joseph-Michel Ginoux and his wife Marie, who in
+                                            November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later,
+                                            Joseph Ginoux evidently posed for both artists, too.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9" target="_blank" id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">The Night Café</h2>
+                                    <p id="footer-para">Vincent Van Gogh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/the-basket-of-apples/hero-large.jpg"
+                                            alt="The Basket of Apples Paul Cézanne">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/the-basket-of-apples/artist.jpg" alt="Paul Cézanne">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>The Basket of Apples</h1>
+                                        <p>Paul Cézanne</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1893</div>
+                                    <div id="description">
+                                        <p class="mb-5">The Basket of Apples (French: Le panier de pommes) is a still
+                                            life oil painting by French artist Paul Cézanne, which he created c. 1893.
+                                            The painting is particularly remarkable for its creative composition, which
+                                            rejected realistic representation in favour of distorting objects to create
+                                            multiple perspectives. This approach eventually influenced other art
+                                            movements, including Fauvism and Cubism. It belongs to the Helen Birch
+                                            Bartlett Memorial Collection of the Art Institute of Chicago.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Basket_of_Apples" target="_blank" id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">The Basket of Apples</h2>
+                                    <p id="footer-para">Paul Cézanne</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/the-boy-in-the-red-vest/hero-large.jpg"
+                                            alt="The Boy in the Red Vest Paul Cézanne">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/the-boy-in-the-red-vest/artist.jpg" alt="Paul Cézanne">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>The Boy in the Red Vest</h1>
+                                        <p>Paul Cézanne</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1889</div>
+                                    <div id="description">
+                                        <p class="mb-5">Cézanne painted four oil portraits of this Italian boy in the
+                                            red vest, all in different poses, which allowed him to study the
+                                            relationship between the figure and space. The most famous of the four, and
+                                            the one commonly referred to by this title, is the one which depicts the boy
+                                            in a melancholic seated pose with his elbow on a table and his head cradled
+                                            in his hand. It is currently held in Zürich, Switzerland. The other three
+                                            portraits, of different poses, are in museums in the US
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Boy_in_the_Red_Vest" target="_blank"
+                                            id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">The Boy in the Red Vest</h2>
+                                    <p id="footer-para">Paul Cézanne</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/arnolfini-portrait/hero-large.jpg"
+                                            alt="Arnolfini Portrait Jan van Eyck">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/arnolfini-portrait/artist.jpg" alt="Jan van Eyck">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>Arnolfini Portrait</h1>
+                                        <p>Jan van Eyck</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1434</div>
+                                    <div id="description">
+                                        <p class="mb-5"> It is considered one of the most original and complex paintings
+                                            in Western art, because of its beauty, complex iconography, geometric
+                                            orthogonal perspective, and expansion of the picture space with the use of a
+                                            mirror. According to Ernst Gombrich "in its own way it was as new and
+                                            revolutionary as Donatello's or Masaccio's work in Italy. A simple corner of
+                                            the real world had suddenly been fixed on to a panel as if by magic ... For
+                                            the first time in history the artist became the perfect eye-witness in the
+                                            truest sense of the term".
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/Arnolfini_Portrait#:~:text=The%20Arnolfini%20Portrait%20(or%20The,Netherlandish%20painter%20Jan%20van%20Eyck."
+                                            target="_blank" id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Arnolfini Portrait</h2>
+                                    <p id="footer-para">Jan van Eyck</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/mona-lisa/hero-large.jpg" alt="Mona Lisa Leonardo da Vinci ">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/mona-lisa/artist.jpg" alt="Leonardo da Vinci ">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>Mona Lisa</h1>
+                                        <p>Leonardo da Vinci </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1503</div>
+                                    <div id="description">
+                                        <p class="mb-5">The Mona Lisa (/ˌmoʊnə ˈliːsə/; italian: La Gioconda [la
+                                            dʒoˈkonda] or Monna Lisa [ˈmɔnna ˈliːza]) is a half-length portrait painting
+                                            by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of
+                                            the Italian Renaissance, it has been described as "the best known, the most
+                                            visited, the most written about, the most sung about, the most parodied work
+                                            of art in the world". The painting's novel qualities include the subject's
+                                            enigmatic expression, the monumentality of the composition, the subtle
+                                            modelling of forms, and the atmospheric illusionism.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/Mona_Lisa" target="_blank" id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">Mona Lisa</h2>
+                                    <p id="footer-para">Leonardo da Vinci </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="box1">
+                                    <div id="mainImages">
+                                        <img src="assets/images/the-swing/hero-large.jpg" alt="The Swing Jean-Honoré Fragonard">
+                                    </div>
+                                    <div class="box3">
+                                        <i class="fas fa-expand-arrows-alt"></i> VIEW IMAGE
+                                    </div>
+                                    <div class="box4">
+                                        <img src="assets/images/the-swing/artist.jpg" alt="Jean-Honoré Fragonard">
+                                    </div>
+                                    <div class="box5-galilee">
+                                        <h1>The Swing</h1>
+                                        <p>Jean-Honoré Fragonard</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  col-lg-6">
+                                <div class="box2">
+                                    <div id="display">1767</div>
+                                    <div id="description">
+                                        <p class="mb-5">The painting depicts an elegant young woman on a swing. A
+                                            smiling young man, hiding in the bushes on the left, watches her from a
+                                            vantage point that allows him to see up into her billowing dress, where his
+                                            arm is pointed with hat in hand. A smiling older man, who is nearly hidden
+                                            in the shadows on the right, propels the swing with a pair of ropes. The
+                                            older man appears to be unaware of the young man. As the young lady swings
+                                            high, she throws her left leg up, allowing her dainty shoe to fly through
+                                            the air.
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/The_Swing_(Fragonard)" target="_blank" id="link5">GO
+                                            TO
+                                            SOURCE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box6">
+                                    <h2 id="footer-title">The Swing</h2>
+                                    <p id="footer-para">Jean-Honoré Fragonard</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/0ca54436e3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
