@@ -124,46 +124,6 @@ body {
     bottom: 100px;
     font: bold;
     font-family: 'Libre Baskerville', serif;
-
-}
-
-#link2 {
-    color: #7d7d7d;
-    position: absolute;
-    right: 500px;
-    bottom: 100px;
-    font: bold;
-    font-family: 'Libre Baskerville', serif;
-
-}
-
-#link3 {
-    color: #7d7d7d;
-    position: absolute;
-    right: 500px;
-    bottom: 100px;
-    font: bold;
-    font-family: 'Libre Baskerville', serif;
-
-}
-
-#link4 {
-    color: #7d7d7d;
-    position: absolute;
-    right: 500px;
-    bottom: 100px;
-    font: bold;
-    font-family: 'Libre Baskerville', serif;
-}
-
-#link5 {
-    color: #7d7d7d;
-    position: absolute;
-    right: 500px;
-    bottom: 100px;
-    font: bold;
-    font-family: 'Libre Baskerville', serif;
-
 }
 
 div.box3 {
@@ -244,7 +204,7 @@ div .box5 {
 
 .box7 {
     height: 90px;
-    margin-right: 10px;
+    margin-top: 20px;
 }
 
 #footer-title {
@@ -389,12 +349,12 @@ div .box5-galilee {
 
 /* Media Query for slideshow */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 830px) {
     div .box5 {
         position: absolute;
-        right: 140px;
+        right: 180px;
         height: 300px;
-        width: 320px;
+        width: 280px;
         background-color: #FFFFFF;
     }
 }
@@ -415,9 +375,10 @@ div .box5-galilee {
     div .box4 {
         position: absolute;
         right: 40px;
-        bottom: 370px;
+        bottom: 272px;
     }
 }
+
 
 @media only screen and (max-width: 480px) {
     #mainImages img {
@@ -431,8 +392,8 @@ div .box5-galilee {
     div .box5 {
         position: absolute;
         top: 450px;
-        height: 100px;
-        width: 300px;
+        height: 80px;
+        width: 250px;
         background-color: #FFFFFF;
         padding-top: 20px;
     }
@@ -454,16 +415,15 @@ div .box5-galilee {
         font-size: 15px;
         line-height: 15px;
         color: #7d7d7d;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 
 
 @media only screen and (max-width: 480px) {
     div .box4 {
-        position: absolute;
         left: 10px;
-        bottom: 50px;
+        bottom: 1px;
     }
 }
 
@@ -480,6 +440,7 @@ div .box5-galilee {
         font-size: 120px;
         line-height: 75px;
         left: 90px;
+        margin-top: 20px;
     }
 }
 
@@ -498,6 +459,144 @@ div .box5-galilee {
         bottom: 150px;
         font-size: 9px;
         width: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div .box5-pearl {
+        position: absolute;
+        top: 450px;
+        height: 80px;
+        width: 250px;
+        background-color: #FFFFFF;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box5-pearl h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box5-pearl p {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 15px;
+        color: #7d7d7d;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div #pearl4 {
+        left: 200px;
+        bottom: 1px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div .box5-guernica {
+        position: absolute;
+        top: 450px;
+        height: 80px;
+        width: 250px;
+        background-color: #FFFFFF;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box5-guernica h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box5-guernica p {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 15px;
+        color: #7d7d7d;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div .box5-penitent {
+        position: absolute;
+        top: 450px;
+        height: 80px;
+        width: 250px;
+        background-color: #FFFFFF;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box5-penitent h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box5-penitent p {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 15px;
+        color: #7d7d7d;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div .box5-galilee {
+        position: absolute;
+        top: 450px;
+        height: 80px;
+        width: 200px;
+        background-color: #FFFFFF;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box5-galilee h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box5-galilee p {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 15px;
+        color: #7d7d7d;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #link1 {
+     bottom: 80px;
+    
     }
 }
 
@@ -576,11 +675,9 @@ manual slideshow styles
     background: none;
     border: none;
     font-size: 2rem;
-    top: 100%;
     transform: translateY(-50%);
     color: rgba(255, 255, 255, .5);
     cursor: pointer;
-   
     background-color: rgba(0, 0, 0, .1);
   }
 
@@ -595,9 +692,11 @@ manual slideshow styles
 }
 
 .carousel-button.prev {
-  left: 112rem;
+    position: absolute;
+    right: 80px;
 }
 
 .carousel-button.next {
-  right: 2rem;
+    position: absolute;
+    right: 25px;
 }
