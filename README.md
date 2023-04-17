@@ -1,3 +1,4 @@
+
 # Frontend Mentor - Galleria slideshow site solution
 
 This is a solution to the [Galleria slideshow site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/galleria-slideshow-site-tEA4pwsa6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -30,20 +31,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](assets/images/screenshots/responsiveGallery.png)
+![](assets/images/screenshots/largeScreenMain.png)
+![](assets/images/screenshots/MediumScreenMain.png)
+![](assets/images/screenshots/SmallScreenMain.png)
+![](assets/images/screenshots/largeScreenGallery.png)
+![](assets/images/screenshots/MediumScreenGallery.png)
+![](assets/images/screenshots/SmallScreenGallery.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://j-r77-stack.github.io/Gallery-slideshow-site/index.html)
 
 ## My process
 
@@ -51,64 +50,45 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Bootstrap5](https://getbootstrap.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Git](https://git-scm.com/)
+      * Used for version control.
+- [GitHub](https://github.com/)
+      * Used to store the code once pushed from Git. 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt alot during the building of this project. First by adapting the masonary layout system to work with bootstrap5, which took quite a few tweeks.
 
-To see how you can add code snippets, see below:
+[Link to Masonary system](https://getbootstrap.com/docs/5.0/examples/masonry/)
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+The building of the carousel/slider system was very tricky. I couldnt have an automatic slider and manual slider on the same page so I ended up building the on two different pages, whiched worked but wasnt exactly how I wanted it.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Also when building the project while using chrome developer tools it looked perfect on laptop, ipad and mobile, frustratingly however when i deployed the project and looked on mobile and ipad views on real devices there where some elements that where out. Going forward I want to up my skill in bootstrap5 using a mobile first aproach checking the whole time that it works correctly on all devices.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Continue to improve my Bootstrap5 skills.
+I was going to practice using Json in this project but decided to concentrate on other things. I want to practice using Json in the next project
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Automatic Slider](https://codepen.io/SitePoint/pen/zqVGQK) - This helped me build my own slider I really liked the way it worked and will use it going forward.
+- [Manual Carousel](https://www.youtube.com/watch?v=9HcxHDS2w1s) - This is an amazing YouTube Vidio which helped me understand how to build a Carousel with images. I'd recommend it to anyone still learning this concept.
+- [w3schools](https://www.w3schools.com/) - A great webpage for someone beginning their journey with code.
+- [stackoverflow](https://stackoverflow.com/) - Another very useful site.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
+- Frontend Mentor - [@J-R77-stack](https://www.frontendmentor.io/profile/J-R77-stack)
+- Linkedin - [@johnny-ramsay](https://www.linkedin.com/in/johnny-ramsay-developer/)
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- [WebdevSimplified](https://courses.webdevsimplified.com/) - A great programer who really breaks down how to code in a simplified manner. I build my manual carousel using his YouTube video above.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
