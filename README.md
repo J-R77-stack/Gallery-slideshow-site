@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/gallery-slideshow-with-bootstrap5-lRh5ZuG5w_)
 - Live Site URL: [Add live site URL here](https://j-r77-stack.github.io/Gallery-slideshow-site/index.html)
 
 ## My process
@@ -65,9 +65,9 @@ I learnt alot during the building of this project. First by adapting the masonar
 
 [Link to Masonary system](https://getbootstrap.com/docs/5.0/examples/masonry/)
 
-The building of the carousel/slider system was very tricky. I couldnt have an automatic slider and manual slider on the same page so I ended up building the on two different pages, whiched worked but wasnt exactly how I wanted it.
+The building of the carousel/slider system was very tricky. I couldn't have an automatic slider and manual slider on the same page so I ended up building them on two different pages, which worked but wasn't exactly how I wanted it.
 
-Also when building the project while using chrome developer tools it looked perfect on laptop, ipad and mobile, frustratingly however when i deployed the project and looked on mobile and ipad views on real devices there where some elements that where out. Going forward I want to up my skill in bootstrap5 using a mobile first aproach checking the whole time that it works correctly on all devices.
+Also when building the project while using chrome developer tools it looked perfect on laptop, ipad and mobile, frustratingly however when I deployed the project and looked on mobile and ipad views on real devices there where some elements that where out. Going forward I want to up my skill in bootstrap5 using a mobile first aproach checking the whole time that it works correctly on all devices.
 
 ### Continued development
 
